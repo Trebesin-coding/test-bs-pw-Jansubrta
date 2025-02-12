@@ -13,8 +13,8 @@ def main():
         page= browser.New_page
         page.goto("https://js-trebesin.github.io/playwright-exam/")
 
-        page.fill("INPUT[Login='answer']"Login)
-        page.fill("INPUT[Heslo='answer']"Heslo)
+        page.fill("INPUT[id='Login']"Login)
+        page.fill("INPUT[id='Heslo']"Heslo)
         page.click("botton[type = 'submit']")
 
         # !!!
